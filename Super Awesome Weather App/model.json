@@ -1,0 +1,50 @@
+{
+    "coord":
+    {
+        "lon":9.94,
+        "lat":49.79
+    },
+    "sys":
+    {
+        "type":3,
+        "id":65633,
+        "message":0.0286,
+        "country":"DE",
+        "sunrise":1421737636,
+        "sunset":1421769323
+    },
+    "weather":
+    [
+     {"id":804,
+     "main":"Clouds",
+     "description":"overcast clouds",
+     "icon":"04d"
+     }
+    ],
+    "base":"cmc stations",
+    "main":
+    {
+        "temp":273.79,
+        "humidity":91,
+        "temp_min":273.15,
+        "temp_max":274.75,
+        "pressure":1026.71
+    },
+    "wind":
+    {
+        "speed":1.86,
+        "deg":309.5
+    },
+    "snow":
+    {
+        "3h":0
+    },
+    "clouds":
+    {
+        "all":88
+    },
+    "dt":1421756202,
+    "id":2805615,
+    "name":"Wuerzburg",
+    "cod":200
+}
