@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B02DABF9-0114-488A-A92F-22A65E1C42C0</string>
+	<string>EA69D7EA-8072-4DE1-8130-2FC748ECE482</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Super Awesome Weather App</string>
+	<string>cjsase</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E829AD842ADD687AE93C0D44BAE0F6DB503D7697</key>
 		<string>https://github.com/cjsase/SwiftTesting.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WeatherApp/Super Awesome Weather App.xcodeproj</string>
+	<string>GestureTests/cjsase.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E829AD842ADD687AE93C0D44BAE0F6DB503D7697</key>

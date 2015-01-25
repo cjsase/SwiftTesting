@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-class Location {
+class Location{
     let ID: Int
     let name: String
     let coordinates: CLLocationCoordinate2D
@@ -27,11 +27,11 @@ class Location {
         country: String,
         sunrise: Int,
         sunset: Int,
-        weather: Weather) {
+        weather: Weather){
             
             self.ID = ID
             self.name = name
-            //        self.coordinates = CLLocationCoordinate2DMake(lat, lon)
+            //self.coordinates = CLLocationCoordinate2DMake(lat, lon)
             self.coordinates = CLLocationCoordinate2D(latitude: lat, longitude: lon)
             self.message = message
             self.message = message
@@ -40,5 +40,4 @@ class Location {
             self.sunset = NSDate(timeIntervalSince1970: NSTimeInterval(sunset))
             self.weather = weather
     }
-    
 }

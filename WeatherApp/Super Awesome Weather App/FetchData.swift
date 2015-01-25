@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+
 func fetchData(ort: String)
 {
     let location:String = ort
@@ -16,7 +18,8 @@ func fetchData(ort: String)
     let request:NSURLRequest = NSURLRequest(URL: wuWeatherURL)
     let config = NSURLSessionConfiguration.defaultSessionConfiguration()
     let session = NSURLSession(configuration: config)
-
+    var loc:Location
+    
     session.dataTaskWithRequest(request, completionHandler:
     {
         (data, response, error) -> Void in
@@ -59,6 +62,7 @@ func fetchData(ort: String)
                                                     var locnew = Location(ID: 121739, name: "Würzburg", lat: 49.79, lon: 9.94, message: "Fehler", country: "Germany", sunrise: 1421478603, sunset: 1421509845, weather: weatherNew)
                                                     println(locnew.weather.temp)
                                                     println("Data parsed")
+                                                    
                                                 }
                                             }
                                         }
