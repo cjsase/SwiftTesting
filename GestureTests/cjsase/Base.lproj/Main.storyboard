@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="cjsase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EDv-Sm-eXt">
+                                <rect key="frame" x="195" y="185" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIg-j1-h9f">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.81257685146935232" blue="0.372413774445576" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UBZ-LL-NOb" appends="YES" id="zVX-nd-9aq"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSw-fk-Qbq">
+                                <rect key="frame" x="16" y="20" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLe-ss-SY2">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.23260756356360479" blue="0.11157473014448949" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdG-Qm-vKT">
+                                <rect key="frame" x="195" y="20" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pinch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1z-bb-fdF">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21661974878675183" green="0.57918013793117551" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oIS-lX-fsl" appends="YES" id="We1-EC-Qse"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p25-hR-Pnu">
+                                <rect key="frame" x="16" y="185" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLj-aI-zYd">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.50424316864278917" green="1" blue="0.34568958900748514" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5fG-Bx-efe" appends="YES" id="dD3-bs-HsX"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BqA-rG-ebU">
+                                <rect key="frame" x="16" y="350" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LongPress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZZ-OK-Ezl">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.076276734754902931" green="1" blue="0.81058516691759797" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3mg-tG-VqU" appends="YES" id="Sbj-5X-JWC"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLd-ud-rDi">
+                                <rect key="frame" x="195" y="350" width="164" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjJ-fl-iew">
+                                        <rect key="frame" x="8" y="64" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.41725822861414563" blue="0.55993543717757333" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGU-zX-554">
+                                <rect key="frame" x="16" y="507" width="343" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helloAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LwG-18-96o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last Action" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyZ-kB-7Wo">
+                                <rect key="frame" x="16" y="554" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="labelAction" destination="WyZ-kB-7Wo" id="ZwN-PI-UMh"/>
+                        <outlet property="labelTap" destination="WLe-ss-SY2" id="STD-cH-99P"/>
+                        <outlet property="longPressView" destination="BqA-rG-ebU" id="mLs-UO-A6U"/>
+                        <outlet property="panView" destination="EDv-Sm-eXt" id="ZlV-Lh-8zt"/>
+                        <outlet property="pinchView" destination="pdG-Qm-vKT" id="bAu-kk-yah"/>
+                        <outlet property="rotateView" destination="p25-hR-Pnu" id="Apm-bL-hMd"/>
+                        <outlet property="swipeView" destination="fLd-ud-rDi" id="KfS-hw-GQa"/>
+                        <outlet property="tapView" destination="iSw-fk-Qbq" id="uju-BE-bHb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.99999999999999989" id="3mg-tG-VqU">
+                    <connections>
+                        <action selector="longPress:" destination="vXZ-lx-hvc" id="gwJ-bn-kXW"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pinchGestureRecognizer scale="2.0000000000000009" id="oIS-lX-fsl">
+                    <connections>
+                        <action selector="pinchGesture:" destination="vXZ-lx-hvc" id="1PN-vV-Es6"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="UBZ-LL-NOb">
+                    <connections>
+                        <action selector="panGesture:" destination="vXZ-lx-hvc" id="VYi-Ak-lFq"/>
+                    </connections>
+                </panGestureRecognizer>
+                <rotationGestureRecognizer id="5fG-Bx-efe">
+                    <connections>
+                        <action selector="rotateGesture:" destination="vXZ-lx-hvc" id="XYs-3C-tGY"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
